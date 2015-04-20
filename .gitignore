@@ -1,0 +1,3 @@
+# Ignore user generate content.
+.idea
+.DS_Store
