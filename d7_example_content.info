@@ -1,0 +1,11 @@
+name = D7 Example Content
+description = Example content demo using migrate 7.x-2.7.
+package = D7 Example Content
+core = 7.x
+
+; Base
+files[] = migrate/classes/base.inc
+
+; Nodes
+files[] = migrate/classes/nodes/basic.inc
+files[] = migrate/classes/nodes/basic_with_base.inc

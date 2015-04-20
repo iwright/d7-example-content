@@ -1,0 +1,2 @@
+title, body, path, enable_menu, menu_name, menu_weight, menu_parent
+"Basic Page Example", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo lacus, semper quis dapibus porttitor, porta nec mauris. Maecenas eget eros vitae libero ultrices iaculis.</p>", "Basic Page Example", 1, "main-menu", 0, 0

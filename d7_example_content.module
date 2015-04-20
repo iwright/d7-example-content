@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Required for all Drupal modules.
+ */
+
+/**
+ * Implements hook_migrate_api().
+ */
+function d7_example_content_migrate_api() {
+  $api = array(
+    'api' => 2,
+    'groups' => array(
+      'content' => array(
+        'title' => t('Nodes'),
+      ),
+    ),
+    'migrations' => array(
+      'basicNode' => array(
+        'class_name' => 'basicNode',
+        'group_name' => 'content',
+      ),
+      'basicNodeWithBase' => array(
+        'class_name' => 'basicNodeWithBase',
+        'group_name' => 'content',
+      ),
+    ),
+  );
+  return $api;
+}
